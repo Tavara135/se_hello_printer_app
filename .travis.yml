@@ -1,4 +1,4 @@
 deploy:
-  provider:heroku
-  app:fathomless-bastion-88025
+  provider: heroku
+  app: fathomless-bastion-88025
   api_key: ${HEROKU_API_KEY}
