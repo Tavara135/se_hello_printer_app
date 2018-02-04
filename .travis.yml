@@ -1,3 +1,13 @@
+language: python
+services:
+  - docker
+python:
+  - "2.7"
+install:
+  - make deps
+script:
+  - make test
+  - make lint
 deploy:
   provider: heroku
   app: fathomless-bastion-88025
